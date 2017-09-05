@@ -15,6 +15,15 @@
 		16A018A71F5C4F2800DAFD7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A018A51F5C4F2800DAFD7C /* LaunchScreen.storyboard */; };
 		16A018B21F5CDCEF00DAFD7C /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A018B11F5CDCEF00DAFD7C /* Realm.framework */; };
 		16A018B31F5CDCEF00DAFD7C /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 16A018B11F5CDCEF00DAFD7C /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		16A018B71F5CE4DB00DAFD7C /* JADataBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A018B61F5CE4DB00DAFD7C /* JADataBaseModel.m */; };
+		16A018BE1F5D359B00DAFD7C /* JAActionDescCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A018BD1F5D359B00DAFD7C /* JAActionDescCell.m */; };
+		16A018D61F5D47B500DAFD7C /* SampleUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A018D51F5D47B500DAFD7C /* SampleUser.m */; };
+		16A018D91F5D482500DAFD7C /* SampleCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A018D81F5D482400DAFD7C /* SampleCar.m */; };
+		16A018E51F5D5CF000DAFD7C /* DBSampleUsingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A018E31F5D5CF000DAFD7C /* DBSampleUsingController.m */; };
+		16A018E61F5D5CF000DAFD7C /* DBSampleUsingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A018E41F5D5CF000DAFD7C /* DBSampleUsingController.xib */; };
+		16A018EA1F5D5EEC00DAFD7C /* DBSampleUsingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A018E81F5D5EEC00DAFD7C /* DBSampleUsingCell.m */; };
+		16A018EB1F5D5EEC00DAFD7C /* DBSampleUsingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16A018E91F5D5EEC00DAFD7C /* DBSampleUsingCell.xib */; };
+		16A018F11F5D669F00DAFD7C /* DBSampleUsingController+sampleCreatAndAddAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A018F01F5D669F00DAFD7C /* DBSampleUsingController+sampleCreatAndAddAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +52,22 @@
 		16A018A61F5C4F2800DAFD7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16A018A81F5C4F2800DAFD7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16A018B11F5CDCEF00DAFD7C /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		16A018B51F5CE4DB00DAFD7C /* JADataBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JADataBaseModel.h; sourceTree = "<group>"; };
+		16A018B61F5CE4DB00DAFD7C /* JADataBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JADataBaseModel.m; sourceTree = "<group>"; };
+		16A018BC1F5D359B00DAFD7C /* JAActionDescCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAActionDescCell.h; sourceTree = "<group>"; };
+		16A018BD1F5D359B00DAFD7C /* JAActionDescCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAActionDescCell.m; sourceTree = "<group>"; };
+		16A018D41F5D47B500DAFD7C /* SampleUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleUser.h; sourceTree = "<group>"; };
+		16A018D51F5D47B500DAFD7C /* SampleUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleUser.m; sourceTree = "<group>"; };
+		16A018D71F5D482400DAFD7C /* SampleCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCar.h; sourceTree = "<group>"; };
+		16A018D81F5D482400DAFD7C /* SampleCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCar.m; sourceTree = "<group>"; };
+		16A018E21F5D5CF000DAFD7C /* DBSampleUsingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSampleUsingController.h; sourceTree = "<group>"; };
+		16A018E31F5D5CF000DAFD7C /* DBSampleUsingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSampleUsingController.m; sourceTree = "<group>"; };
+		16A018E41F5D5CF000DAFD7C /* DBSampleUsingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DBSampleUsingController.xib; sourceTree = "<group>"; };
+		16A018E71F5D5EEC00DAFD7C /* DBSampleUsingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSampleUsingCell.h; sourceTree = "<group>"; };
+		16A018E81F5D5EEC00DAFD7C /* DBSampleUsingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSampleUsingCell.m; sourceTree = "<group>"; };
+		16A018E91F5D5EEC00DAFD7C /* DBSampleUsingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DBSampleUsingCell.xib; sourceTree = "<group>"; };
+		16A018EF1F5D669F00DAFD7C /* DBSampleUsingController+sampleCreatAndAddAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DBSampleUsingController+sampleCreatAndAddAction.h"; sourceTree = "<group>"; };
+		16A018F01F5D669F00DAFD7C /* DBSampleUsingController+sampleCreatAndAddAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DBSampleUsingController+sampleCreatAndAddAction.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +102,15 @@
 		16A018961F5C4F2800DAFD7C /* JARealmDataBaseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				16A018B81F5CF64F00DAFD7C /* Demo */,
 				16A018B01F5CDC6400DAFD7C /* Libs */,
 				16A018AE1F5CDC2400DAFD7C /* RealmDataBase */,
 				16A0189A1F5C4F2800DAFD7C /* AppDelegate.h */,
 				16A0189B1F5C4F2800DAFD7C /* AppDelegate.m */,
 				16A0189D1F5C4F2800DAFD7C /* ViewController.h */,
 				16A0189E1F5C4F2800DAFD7C /* ViewController.m */,
+				16A018BC1F5D359B00DAFD7C /* JAActionDescCell.h */,
+				16A018BD1F5D359B00DAFD7C /* JAActionDescCell.m */,
 				16A018A01F5C4F2800DAFD7C /* Main.storyboard */,
 				16A018A31F5C4F2800DAFD7C /* Assets.xcassets */,
 				16A018A51F5C4F2800DAFD7C /* LaunchScreen.storyboard */,
@@ -111,6 +139,8 @@
 		16A018AF1F5CDC2400DAFD7C /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				16A018B51F5CE4DB00DAFD7C /* JADataBaseModel.h */,
+				16A018B61F5CE4DB00DAFD7C /* JADataBaseModel.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -120,6 +150,57 @@
 			children = (
 			);
 			path = Libs;
+			sourceTree = "<group>";
+		};
+		16A018B81F5CF64F00DAFD7C /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				16A018C71F5D42DE00DAFD7C /* RealmDataBaseSampleUsingDemo */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		16A018C71F5D42DE00DAFD7C /* RealmDataBaseSampleUsingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				16A018C81F5D430900DAFD7C /* Controller */,
+				16A018C91F5D430900DAFD7C /* Model */,
+				16A018CA1F5D430900DAFD7C /* View */,
+			);
+			path = RealmDataBaseSampleUsingDemo;
+			sourceTree = "<group>";
+		};
+		16A018C81F5D430900DAFD7C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				16A018E21F5D5CF000DAFD7C /* DBSampleUsingController.h */,
+				16A018E31F5D5CF000DAFD7C /* DBSampleUsingController.m */,
+				16A018E41F5D5CF000DAFD7C /* DBSampleUsingController.xib */,
+				16A018EF1F5D669F00DAFD7C /* DBSampleUsingController+sampleCreatAndAddAction.h */,
+				16A018F01F5D669F00DAFD7C /* DBSampleUsingController+sampleCreatAndAddAction.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		16A018C91F5D430900DAFD7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16A018D41F5D47B500DAFD7C /* SampleUser.h */,
+				16A018D51F5D47B500DAFD7C /* SampleUser.m */,
+				16A018D71F5D482400DAFD7C /* SampleCar.h */,
+				16A018D81F5D482400DAFD7C /* SampleCar.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16A018CA1F5D430900DAFD7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16A018E71F5D5EEC00DAFD7C /* DBSampleUsingCell.h */,
+				16A018E81F5D5EEC00DAFD7C /* DBSampleUsingCell.m */,
+				16A018E91F5D5EEC00DAFD7C /* DBSampleUsingCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,8 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16A018E61F5D5CF000DAFD7C /* DBSampleUsingController.xib in Resources */,
 				16A018A71F5C4F2800DAFD7C /* LaunchScreen.storyboard in Resources */,
 				16A018A41F5C4F2800DAFD7C /* Assets.xcassets in Resources */,
+				16A018EB1F5D5EEC00DAFD7C /* DBSampleUsingCell.xib in Resources */,
 				16A018A21F5C4F2800DAFD7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,9 +277,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16A018F11F5D669F00DAFD7C /* DBSampleUsingController+sampleCreatAndAddAction.m in Sources */,
+				16A018D61F5D47B500DAFD7C /* SampleUser.m in Sources */,
 				16A0189F1F5C4F2800DAFD7C /* ViewController.m in Sources */,
+				16A018E51F5D5CF000DAFD7C /* DBSampleUsingController.m in Sources */,
+				16A018D91F5D482500DAFD7C /* SampleCar.m in Sources */,
+				16A018B71F5CE4DB00DAFD7C /* JADataBaseModel.m in Sources */,
 				16A0189C1F5C4F2800DAFD7C /* AppDelegate.m in Sources */,
+				16A018EA1F5D5EEC00DAFD7C /* DBSampleUsingCell.m in Sources */,
 				16A018991F5C4F2800DAFD7C /* main.m in Sources */,
+				16A018BE1F5D359B00DAFD7C /* JAActionDescCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
